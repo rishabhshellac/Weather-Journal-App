@@ -1,0 +1,114 @@
+body {
+  background: #3b4288;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.holder {
+  border-radius: 5px;
+  background-color: #ffff00;
+  width: 500px;
+}
+
+.feel,
+.zip,
+.entry {
+  margin-top: 20px;
+}
+
+#entryHolder {
+  background-color: #cbd8db;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#date {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#temp {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#content {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.headline {
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 30px;
+  width: 320px;
+  background: #c1c2d3;
+  color: #d6d5cd;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background: #3b4288;
+  color: #f8f8f5;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #faf7f7;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #c6c8db;
+  color: #7683f5;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #3a4cf0;
+  font-family: "Oswald", sans-serif;
+}
